@@ -65,7 +65,8 @@ function Travel101() {
         duration: 1,
         delay: -0.3,
       })
-      .from(cardsRef.current.children, {
+        // @ts-ignore
+        .from(cardsRef.current.children, {
         stagger: 0.3,
         ease: Power4.easeInOut,
         duration: 1,
