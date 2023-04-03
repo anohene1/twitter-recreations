@@ -67,7 +67,7 @@ function Travel101() {
       })
         // @ts-ignore
         .from(cardsRef.current.children, {
-        stagger: 0.3,
+        stagger: 0.2,
         ease: Power4.easeInOut,
         duration: 1,
         css: {
