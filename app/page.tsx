@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={styles.main}>
-      There's nothing here haha
+      There&apos;s nothing here haha
     </main>
   )
 }

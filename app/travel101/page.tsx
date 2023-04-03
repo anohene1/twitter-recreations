@@ -94,6 +94,7 @@ function Travel101() {
       <div ref={cardsRef} className={styles.cards}>
         {cards.map((card) => (
           <Card
+            key={card.city}
             price={card.price}
             city={card.city}
             description={card.description}
