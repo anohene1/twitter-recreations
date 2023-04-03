@@ -7,7 +7,7 @@ function Navbar() {
             <h3>Travel101</h3>
             <nav>
                 <a rel='noreferrer' target='_blank' href="https://twitter.com/anohene1">Twitter</a>
-                <a rel='noreferrer' target='_blank' className={styles.filledButton} href="https://twitter.com/anohene1">Github</a>
+                <a rel='noreferrer' target='_blank' className={styles.filledButton} href="https://github.com/anohene1/twitter-recreations/tree/main/app/travel101">Github</a>
             </nav>
         </header>
     );
