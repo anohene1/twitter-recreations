@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  margin: 0 4rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+
+    svg {
+      height: 3rem;
+      fill: white;
+    }
+
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  a {
+    color: #cbcbcb;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  button {
+    //opacity: 0;
+    //scale: 0.5;
+    //clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+  }
+}

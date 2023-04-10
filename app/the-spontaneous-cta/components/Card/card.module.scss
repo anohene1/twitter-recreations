@@ -1,0 +1,24 @@
+.card {
+  background-color: rgba(84, 84, 84, 0.3);
+  padding: 2rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+
+  h2 {
+    margin-top: 1.3rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  p {
+    margin-top: 3px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+}
