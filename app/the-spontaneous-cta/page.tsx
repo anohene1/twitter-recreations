@@ -114,7 +114,7 @@ function TheSpontaneousCTA() {
           Unlock the <span>best minds</span> in the world, for your own.
         </h1>
         <h5>
-          What if we would tell you, you have everything you'd need to have a
+          What if we would tell you, you have everything you&apos;d need to have a
           super mind.
         </h5>
         <PrimaryButton label="Get started for free" />
