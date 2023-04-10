@@ -11,7 +11,7 @@ function Card({ Icon, title, description }: Props) {
     return (
       <div className={styles.card}>
         {Icon}
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <p>
             {description}
         </p>
