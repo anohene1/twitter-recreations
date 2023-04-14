@@ -140,7 +140,7 @@
 
 .button {
   background-color: black;
-  border: 2px solid  rgba(70, 70, 70, 0.5);
+  border: 2px solid  rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   padding: 2rem 0;
   width: 26rem;
@@ -150,6 +150,11 @@
   font-family: 'Nunito', sans-serif;
   font-size: 1.7rem;
   cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    border: 2px solid  rgba(255, 255, 255, 0.2);
+  }
 
   div {
     display: flex;

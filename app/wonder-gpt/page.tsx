@@ -1,18 +1,16 @@
 "use client";
 
-import React, {useEffect, useRef, useState} from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./styles.module.scss";
 import { gsap, Power3 } from "gsap";
 import { Power4 } from "gsap/gsap-core";
 
 function WonderGPT() {
   const [isBeingHovered, setIsBeingHovered] = useState(false);
-  let cardRef = useRef(null)
-  let blobRef = useRef(null)
-
+  let cardRef = useRef(null);
+  let blobRef = useRef(null);
 
   useEffect(() => {
-
     // @ts-ignore
     cardRef.current.onpointermove = (event) => {
       const bounds = event.currentTarget.getBoundingClientRect();
@@ -20,52 +18,58 @@ function WonderGPT() {
       const y = event.clientY - bounds.top;
 
       // @ts-ignore
-      blobRef.current.animate({
-        left: `${x}px`,
-        top: `${y}px`
-      }, { duration: 1000, fill: "forwards" });
-    }
-
+      blobRef.current.animate(
+        {
+          left: `${x}px`,
+          top: `${y}px`,
+        },
+        { duration: 1000, fill: "forwards" }
+      );
+    };
 
     function transformElement(x: number, y: number) {
       // @ts-ignore
       let box = cardRef.current.getBoundingClientRect();
-      let calcX = -(y - box.y - (box.height / 2)) / 10;
-      let calcY = (x - box.x - (box.width / 2)) / 10;
+      let calcX = -(y - box.y - box.height / 2) / 10;
+      let calcY = (x - box.x - box.width / 2) / 10;
 
       // @ts-ignore
-      cardRef.current.style.transform  = "rotateX("+ calcX +"deg) "
-          + " rotateY("+ calcY +"deg)";
+      cardRef.current.style.transform =
+        "rotateX(" +
+        calcX +
+        "deg) " +
+        " rotateY(" +
+        calcY +
+        "deg)" +
+        " scale(1.2)";
     }
 
     // @ts-ignore
-    cardRef.current.addEventListener('mousemove', (e: MouseEvent) => {
-      window.requestAnimationFrame(function(){
+    cardRef.current.addEventListener("mousemove", (e: MouseEvent) => {
+      window.requestAnimationFrame(function () {
         transformElement(e.clientX, e.clientY);
       });
     });
 
     // @ts-ignore
-    cardRef.current.addEventListener('mouseleave', (e: MouseEvent) => {
-      window.requestAnimationFrame(function(){
+    cardRef.current.addEventListener("mouseleave", (e: MouseEvent) => {
+      window.requestAnimationFrame(function () {
         // @ts-ignore
-        cardRef.current.style.transform = "rotateX(0) rotateY(0)";
+        cardRef.current.style.transform = "rotateX(0) rotateY(0) scale(1)";
       });
     });
-
-
 
     if (isBeingHovered) {
       gsap.to("button div", {
         duration: 0.5,
         ease: Power4.easeInOut,
-        x: -30
+        x: -30,
       });
     } else {
       gsap.to("button div", {
         duration: 0.5,
         ease: Power4.easeInOut,
-        x: 31
+        x: 31,
       });
     }
   });
