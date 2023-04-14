@@ -1,0 +1,209 @@
+.page {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .gradientText {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    background: linear-gradient(to right, #a100ff 20%, #ff3c00 40%, #ffb755 60%, #7300ff 80%);
+    background-size: 200% auto;
+    //color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+
+
+    animation: shine 2.5s linear infinite;
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+  }
+
+  .borderedText {
+    width: min-content;
+    padding: 2px;
+    background: linear-gradient(to right, #a100ff 20%, #ff3c00 40%, #ffb755 60%, #7300ff 80%);
+    background-size: 200% auto;
+    border-radius: 8px;
+    animation: shine 2.5s linear infinite;
+
+
+    div {
+      padding: 2px 8px;
+      background-color: black;
+      border-radius: 8px;
+    }
+
+    span {
+      font-size: 1.3rem;
+      text-align: center;
+      background: linear-gradient(to right, #a100ff 20%, #ff3c00 40%, #ffb755 60%, #7300ff 80%);
+      background-size: 200% auto;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      font-family: "Nunito", sans-serif;
+      font-weight: 700;
+      animation: shine 2.5s linear infinite;
+
+    }
+  }
+
+
+
+  h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    width: 50rem;
+    line-height: 1.1;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.card {
+  background-color: rgba(70, 70, 70, 0.4);
+  text-align: left;
+  padding-top: 2rem;
+  border-radius: 20px;
+  width: 40rem;
+  overflow: hidden;
+  position: relative;
+  transition: all .1s;
+
+  h4 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    position: relative;
+    z-index: 5;
+  }
+
+  p {
+    color: #858585;
+    font-size: 1.6rem;
+    padding-left: 2rem;
+    margin-top: 3px;
+    position: relative;
+    z-index: 5;
+  }
+
+  .textfield {
+    background-color: rgba(70, 70, 70, 0.5);
+    padding: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 5;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+
+    input {
+      flex: 1;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-family: 'Nunito', sans-serif;
+      font-size: 1.6rem;
+      caret-color: blue;
+      color: white;
+    }
+
+    svg {
+      height: 3rem;
+      fill: blue;
+    }
+  }
+
+}
+
+.button {
+  background-color: black;
+  border: 2px solid  rgba(70, 70, 70, 0.5);
+  border-radius: 20px;
+  padding: 2rem 0;
+  width: 26rem;
+  overflow: hidden;
+  margin-top: 3rem;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.7rem;
+  cursor: pointer;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 25rem;
+    transform: translateX(3.1rem);
+    justify-content: space-between;
+  }
+
+  svg {
+    height: 2.7rem;
+    width: 2.7rem;
+  }
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.blob {
+  background-color: white;
+  height: 5rem;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  animation: rotate 20s infinite;
+  opacity: 0.9;
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+  margin: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border-radius: 20px;
+}
