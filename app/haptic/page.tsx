@@ -260,8 +260,8 @@ function Page() {
       </nav>
       <div className={styles.container}>
         <p className={styles.bigText}>
-          Life is defined by our actions. Everything counts. Books you’ve read,
-          kilometers you’ve run, every cup of coffee, every takeoff and every
+          Life is defined by our actions. Everything counts. Books you&apos;ve read,
+          kilometers you&apos;ve run, every cup of coffee, every takeoff and every
           landing, every workout, every headspace session, every movie, every
           night out, and every glass of water the next morning. Everything
           counts. And everything that counts — shapes us
