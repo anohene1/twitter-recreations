@@ -361,7 +361,7 @@ function Page() {
         <div ref={hapticTextRef} className="text">
           <p className={styles.smallerP}>
             Custom categories to track everything. The only limit is your
-            imagination.{" "}
+            imagination.
           </p>
           <div className={styles.textPhoneButtons}>
             <SecondaryButton />
@@ -399,21 +399,21 @@ function Page() {
         </p>
         <p className={styles.animatedP}>
           We aim to build technology that inspires the next steps, instead of
-          focusing on missed opportunities.{" "}
+          focusing on missed opportunities.
         </p>
         <p className={styles.animatedP}>
           Privacy is a fundamental right. Haptic doesn&apos;t collect any personal
-          information and doesn't have access to the content that you share in
-          the app.{" "}
+          information and doesn&apos;t have access to the content that you share in
+          the app.
         </p>
         <p className={styles.animatedP}>
           All your data belongs to you. Every piece of information in the app is
           encrypted, stored locally on your iPhone and never synced with
-          external servers.{" "}
+          external servers.
         </p>
         <p className={styles.animatedP}>
           Digital products are tools, not the center of one&apos;s life. The app is
-          visible when you need it, and keeps silent when you don't.
+          visible when you need it, and keeps silent when you don&apos;t.
         </p>
       </div>
       {/*<div style={{ height: "100px" }}></div>*/}
