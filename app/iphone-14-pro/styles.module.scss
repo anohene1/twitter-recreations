@@ -196,6 +196,7 @@
       h1 {
         font-size: 7rem;
         transition: background-size 1s;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
       }
 
       span {

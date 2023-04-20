@@ -114,9 +114,9 @@ function Page() {
         duration: 1,
       })
       .from(`.${styles.battery} h1`, {
-        css: {
-          'background-size': '0% 100%'
-        }
+        clipPath: 'polygon(0% 0%, 0% 0%, 0% 100%, 0% 100%)',
+        ease: Power3.easeInOut,
+        duration: 1.3
       });
 
     // Cinematic video animations
