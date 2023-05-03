@@ -845,7 +845,10 @@ function Page() {
               and easily prop it up.
             </p>
             <div className={styles.folioVideoContainer}>
-              <video muted src="/assets/ipad-mini/folio_video.webm"></video>
+              <video muted playsInline>
+                <source src="/assets/ipad-mini/folio-safari.mov" type='video/mp4;codecs=hvc1' />
+                <source src="/assets/ipad-mini/folio_video.webm" type="video/webm" />
+              </video>
             </div>
           </div>
         </Container>
