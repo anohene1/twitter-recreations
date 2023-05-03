@@ -2,7 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,700;0,800;1,600&display=swap');
-@import url('https://v1.fontapi.ir/css/SFProDisplay:200;300;400;500;600;700');
+/*@import url('https://v1.fontapi.ir/css/SFProDisplay:200;300;400;500;600;700');*/
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display_regular.woff2') format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display_medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('/assets/fonts/sf-pro-display_semibold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/assets/fonts/sf-pro-text_regular.woff2') format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/assets/fonts/sf-pro-text_medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('/assets/fonts/sf-pro-text_semibold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'SF Pro Icons';
+  src: url('/assets/fonts/sf-pro-icons_regular.woff2') format('woff2');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Icons';
+  src: url('/assets/fonts/sf-pro-icons_medium.woff2') format('woff2');
+  font-weight: 500;
+}
 
 :root {
   font-size: 62.5%;
