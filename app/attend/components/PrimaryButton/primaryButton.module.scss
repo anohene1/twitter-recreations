@@ -1,0 +1,29 @@
+.button {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.5rem 0;
+  width: 20rem;
+  overflow: hidden;
+  color: black;
+  border: none;
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+
+  div {
+    display: flex;
+    align-items: center;
+    width: 105%;
+    //width: 23rem;
+    transform: translateX(5%);
+    justify-content: space-between;
+  }
+
+  svg {
+    height: 2rem;
+    width: 2rem;
+  }
+}
