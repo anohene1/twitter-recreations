@@ -1,0 +1,68 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: black;
+  //border-bottom: 1px solid rgba(white, 0.3);
+
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      color: rgba(white, 0.8);
+      font-size: 1.2rem;
+      font-family: "SF Pro Display", sans-serif;
+
+      path {
+        fill: rgba(white, 0.8);
+      }
+
+      &:hover {
+        color: white;
+
+        path {
+          fill: white;
+        }
+      }
+    }
+  }
+}
+
+.secondBar {
+  font-size: 1.2rem;
+  color: rgba(white, 0.8);
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+
+  h2 {
+    font-family: "SF Pro Display", sans-serif;
+    color: white;
+  }
+
+
+  .container{
+    max-width: 100rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+  }
+
+
+  .overview {
+    color: rgba(white, 0.5)
+  }
+}
