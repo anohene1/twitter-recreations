@@ -149,3 +149,264 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  width: 140rem;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  color: rgba(255,255,255,.8);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.swiper-button-next {
+  justify-content: flex-end;
+}
+
+.swiper-button-prev {
+  justify-content: flex-start;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  color: white;
+}
+
+/*.swiper-pagination, .swiper-pagination-clickable, .swiper-pagination-bullets, .swiper-pagination-horizontal {*/
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  background: black;
+  width: 6.5rem;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4rem;
+  padding: 8px;
+  border-radius: 100px;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+}
+
+
+.icon-security {
+  background-repeat: no-repeat;
+  background-image: url(/assets/vision-pro/lock.png);
+  background-size: 464px 480px;
+  width: 58px;
+  height: 80px;
+  background-position: 0px 0px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20rem;
+}
+
+.icon-security.animate {
+  animation: apple-logo-lock-large 1.6s steps(1) forwards;
+}
+
+
+
+@keyframes apple-logo-lock-large {
+  0% {
+    background-position: 0px 0px
+  }
+
+  2.0833333333% {
+    background-position: -58px 0px
+  }
+
+  4.1666666667% {
+    background-position: -116px 0px
+  }
+
+  6.25% {
+    background-position: -174px 0px
+  }
+
+  8.3333333333% {
+    background-position: -232px 0px
+  }
+
+  10.4166666667% {
+    background-position: -290px 0px
+  }
+
+  12.5% {
+    background-position: -348px 0px
+  }
+
+  14.5833333333% {
+    background-position: -406px 0px
+  }
+
+  16.6666666667% {
+    background-position: 0px -80px
+  }
+
+  18.75% {
+    background-position: -58px -80px
+  }
+
+  20.8333333333% {
+    background-position: -116px -80px
+  }
+
+  22.9166666667% {
+    background-position: -174px -80px
+  }
+
+  25% {
+    background-position: -232px -80px
+  }
+
+  27.0833333333% {
+    background-position: -290px -80px
+  }
+
+  29.1666666667% {
+    background-position: -348px -80px
+  }
+
+  31.25% {
+    background-position: -406px -80px
+  }
+
+  33.3333333333% {
+    background-position: 0px -160px
+  }
+
+  35.4166666667% {
+    background-position: -58px -160px
+  }
+
+  37.5% {
+    background-position: -116px -160px
+  }
+
+  39.5833333333% {
+    background-position: -174px -160px
+  }
+
+  41.6666666667% {
+    background-position: -232px -160px
+  }
+
+  43.75% {
+    background-position: -290px -160px
+  }
+
+  45.8333333333% {
+    background-position: -348px -160px
+  }
+
+  47.9166666667% {
+    background-position: -406px -160px
+  }
+
+  50% {
+    background-position: 0px -240px
+  }
+
+  52.0833333333% {
+    background-position: -58px -240px
+  }
+
+  54.1666666667% {
+    background-position: -116px -240px
+  }
+
+  56.25% {
+    background-position: -174px -240px
+  }
+
+  58.3333333333% {
+    background-position: -232px -240px
+  }
+
+  60.4166666667% {
+    background-position: -290px -240px
+  }
+
+  62.5% {
+    background-position: -348px -240px
+  }
+
+  64.5833333333% {
+    background-position: -406px -240px
+  }
+
+  66.6666666667% {
+    background-position: 0px -320px
+  }
+
+  68.75% {
+    background-position: -58px -320px
+  }
+
+  70.8333333333% {
+    background-position: -116px -320px
+  }
+
+  72.9166666667% {
+    background-position: -174px -320px
+  }
+
+  75% {
+    background-position: -232px -320px
+  }
+
+  77.0833333333% {
+    background-position: -290px -320px
+  }
+
+  79.1666666667% {
+    background-position: -348px -320px
+  }
+
+  81.25% {
+    background-position: -406px -320px
+  }
+
+  83.3333333333% {
+    background-position: 0px -400px
+  }
+
+  85.4166666667% {
+    background-position: -58px -400px
+  }
+
+  87.5% {
+    background-position: -116px -400px
+  }
+
+  89.5833333333% {
+    background-position: -174px -400px
+  }
+
+  91.6666666667% {
+    background-position: -232px -400px
+  }
+
+  93.75% {
+    background-position: -290px -400px
+  }
+
+  95.8333333333% {
+    background-position: -348px -400px
+  }
+
+  97.9166666667% {
+    background-position: -406px -400px
+  }
+
+  to {
+    background-position: -406px -400px
+  }
+}
