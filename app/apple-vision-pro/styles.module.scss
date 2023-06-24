@@ -10,7 +10,9 @@
     position: relative;
   }
 
-  video, img, .introducing {
+  video,
+  img,
+  .introducing {
     margin: 0 auto;
     display: block;
     position: absolute;
@@ -19,7 +21,6 @@
   }
 
   .logo {
-
   }
 
   .startFrame {
@@ -44,19 +45,16 @@
     h3 {
       font-size: 2.4rem;
       font-weight: 600;
-      letter-spacing: .009em;
-      font-family: 'SF Pro Display', sans-serif;
+      letter-spacing: 0.009em;
+      font-family: "SF Pro Display", sans-serif;
       color: #6e6e73;
       margin-bottom: 1rem;
     }
   }
 }
 
-
-
 .firstVideoSections {
   height: 130rem;
-
 
   video {
     width: 100%;
@@ -86,21 +84,18 @@
 }
 
 .physicalSpaceSection {
-
   h1 {
     margin-top: -50rem;
   }
 }
 
 .navigateSimplySection {
-
   h1 {
     margin-top: -106rem;
   }
 }
 
 .foundationEntertainmentSection {
-
   h1 {
     margin-top: -156rem;
   }
@@ -125,7 +120,7 @@
       font-size: 2.4rem;
       line-height: 1.16667;
       font-weight: 600;
-      font-family: 'SF Pro Display', sans-serif;
+      font-family: "SF Pro Display", sans-serif;
     }
   }
 
@@ -133,8 +128,9 @@
     font-size: 2.1rem;
     line-height: 1.1904761905;
     font-weight: 600;
-    letter-spacing: .011em;
-    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 0.011em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+      sans-serif;
     color: #86868b;
     margin-bottom: 4rem;
   }
@@ -186,9 +182,10 @@
     justify-content: center;
     align-items: center;
 
-    h1, h3 {
+    h1,
+    h3 {
       color: white;
-      font-family: 'SF Pro Display', sans-serif;
+      font-family: "SF Pro Display", sans-serif;
       text-align: center;
     }
 
@@ -198,12 +195,15 @@
 
     h3 {
       font-size: 2.4rem;
-      letter-spacing: .009em
+      letter-spacing: 0.009em;
     }
   }
 }
 
-.experienceApps, .experienceEntertainment, .experiencePhotos, .experienceConnection {
+.experienceApps,
+.experienceEntertainment,
+.experiencePhotos,
+.experienceConnection {
   padding: 0;
 }
 
@@ -216,7 +216,7 @@
     font-size: 3.2rem;
     line-height: 1.125;
     font-weight: 700;
-    letter-spacing: .004em;
+    letter-spacing: 0.004em;
     font-family: SF Pro Display, sans-serif;
   }
 
@@ -225,7 +225,7 @@
     font-size: 2.1rem;
     line-height: 1.381002381;
     font-weight: 600;
-    letter-spacing: .011em;
+    letter-spacing: 0.011em;
     font-family: SF Pro Display, sans-serif;
   }
 
@@ -264,7 +264,7 @@
     h3 {
       font-size: 2.4rem;
       line-height: 1.1666666667;
-      letter-spacing: .009em;
+      letter-spacing: 0.009em;
       font-family: SF Pro Display, sans-serif;
     }
 
@@ -307,7 +307,7 @@
       font-size: 1.9rem;
       line-height: 1.2105263158;
       font-weight: 600;
-      letter-spacing: .012em;
+      letter-spacing: 0.012em;
       color: #86868b;
       font-family: SF Pro Display, sans-serif;
       height: 41rem;
@@ -370,7 +370,7 @@
     font-size: 2.1rem;
     line-height: 1.2105263158;
     font-weight: 600;
-    letter-spacing: .012em;
+    letter-spacing: 0.012em;
     color: #86868b;
     font-family: SF Pro Display, sans-serif;
     text-align: center;
@@ -443,9 +443,10 @@
     align-items: center;
     justify-content: center;
 
-    h1, h3 {
+    h1,
+    h3 {
       color: white;
-      font-family: 'SF Pro Display', sans-serif;
+      font-family: "SF Pro Display", sans-serif;
       text-align: center;
     }
 
@@ -455,7 +456,7 @@
 
     h3 {
       font-size: 2.4rem;
-      letter-spacing: .009em
+      letter-spacing: 0.009em;
     }
   }
 }
@@ -492,7 +493,7 @@
     h3 {
       font-size: 2.4rem;
       line-height: 1.1666666667;
-      letter-spacing: .009em;
+      letter-spacing: 0.009em;
       font-family: SF Pro Display, sans-serif;
       color: white;
     }
@@ -519,14 +520,13 @@
       }
     }
   }
-
 }
 
 .specsHeading {
   font-size: 3.2rem;
   line-height: 1.125;
   font-weight: 700;
-  letter-spacing: .004em;
+  letter-spacing: 0.004em;
   font-family: SF Pro Display, sans-serif;
   color: white;
   text-align: center;
@@ -547,8 +547,10 @@
   }
 }
 
-
-.part1, .part2, .part3, .part4 {
+.part1,
+.part2,
+.part3,
+.part4 {
   color: transparent;
 }
 
@@ -568,10 +570,8 @@
     bottom: -10rem;
     right: 0;
     left: 0;
-
   }
 }
-
 
 .eyeTrackingSection {
   position: relative;
@@ -596,7 +596,8 @@
   position: relative;
   margin-top: 20rem;
 
-  .sensorsAll, .sensorsSome {
+  .sensorsAll,
+  .sensorsSome {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -637,7 +638,7 @@
     font-size: 2.4rem;
     line-height: 1.1666666667;
     font-weight: 700;
-    letter-spacing: .009em;
+    letter-spacing: 0.009em;
     font-family: SF Pro Display, sans-serif;
     color: black;
     margin-top: 3rem;
@@ -650,14 +651,13 @@
     letter-spacing: -0.015em;
     font-family: SF Pro Display, sans-serif;
     margin: 4rem auto;
-
   }
 
   p {
     font-size: 2.4rem;
     line-height: 1.3334133333;
     font-weight: 600;
-    letter-spacing: .009em;
+    letter-spacing: 0.009em;
     font-family: SF Pro Display, sans-serif;
     color: #86868b;
     width: 74rem;

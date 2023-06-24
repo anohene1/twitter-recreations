@@ -625,7 +625,6 @@ function Page() {
       },
     });
 
-
     gsap.from(`.${styles.sensorsAll}`, {
       opacity: 0,
       scrollTrigger: {
@@ -641,20 +640,20 @@ function Page() {
       scale: 0.8,
       scrollTrigger: {
         trigger: `.${styles.chipSection}`,
-        start: 'top 80%',
-        end: 'top 50%',
-        scrub: true
-      }
-    })
+        start: "top 80%",
+        end: "top 50%",
+        scrub: true,
+      },
+    });
 
-    gsap.to('.icon-security', {
+    gsap.to(".icon-security", {
       scrollTrigger: {
-        start: 'top 30%',
-        end: 'top 10%',
-        trigger: '.icon-security',
-        toggleClass: 'animate'
-      }
-    })
+        start: "top 30%",
+        end: "top 10%",
+        trigger: ".icon-security",
+        toggleClass: "animate",
+      },
+    });
   }, []);
 
   return (
@@ -1376,14 +1375,14 @@ function Page() {
           <div className={styles.chipSection}>
             <img src="/assets/vision-pro/sensors_chips.jpg" alt="" />
             <div
-                style={{
-                  maxWidth: "72.7rem",
-                  display: "flex",
-                  flexDirection: "column",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  margin: "0 auto",
-                }}
+              style={{
+                maxWidth: "72.7rem",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "0 auto",
+              }}
             >
               <h2 className={styles.specsHeading}>
                 Revolutionary dual‑chip
@@ -1392,23 +1391,33 @@ function Page() {
               </h2>
               <p className={styles.specsBody}>
                 A unique dual‑chip design enables the spatial experiences on
-                Vision Pro. The powerful <span>M2</span> chip simultaneously runs visionOS,
-                executes advanced computer vision algorithms, and delivers
-                stunning graphics, all with incredible efficiency. And the
-                brand-new <span>R1</span> chip is specifically dedicated to process input from
-                the cameras, sensors, and microphones, streaming images to the
-                displays within 12 milliseconds — for a virtually lag-free,
-                real-time view of the world.
+                Vision Pro. The powerful <span>M2</span> chip simultaneously
+                runs visionOS, executes advanced computer vision algorithms, and
+                delivers stunning graphics, all with incredible efficiency. And
+                the brand-new <span>R1</span> chip is specifically dedicated to
+                process input from the cameras, sensors, and microphones,
+                streaming images to the displays within 12 milliseconds — for a
+                virtually lag-free, real-time view of the world.
               </p>
             </div>
-            <button style={{backgroundColor: 'white', borderColor: 'white', color: 'black', marginLeft: 'auto', marginRight: 'auto', marginTop: '7rem'}} className={styles.someButton}>
+            <button
+              style={{
+                backgroundColor: "white",
+                borderColor: "white",
+                color: "black",
+                marginLeft: "auto",
+                marginRight: "auto",
+                marginTop: "7rem",
+              }}
+              className={styles.someButton}
+            >
               <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-plus"
-                  viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-plus"
+                viewBox="0 0 16 16"
               >
                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
               </svg>
@@ -1416,23 +1425,36 @@ function Page() {
             </button>
           </div>
         </div>
-        <div
-            className={styles.privacySection}
-        >
-          <figure className="icon-security" role="img" aria-hidden="true"
-                  data-anim-keyframe="{&quot;start&quot;:&quot;t - 50vh&quot;,&quot;cssClass&quot;:&quot;animate&quot;}"
-                  data-anim-lazy-image-download-complete=""></figure>
+        <div className={styles.privacySection}>
+          <figure
+            className="icon-security"
+            role="img"
+            aria-hidden="true"
+            data-anim-keyframe='{"start":"t - 50vh","cssClass":"animate"}'
+            data-anim-lazy-image-download-complete=""
+          ></figure>
           <h3>Privacy and Security</h3>
-          <h1>When it comes to privacy,<br/>we don&apos;t blink.</h1>
-          <p><span>Privacy and security built in.</span> Like every Apple product and service, Vision Pro was designed to help protect your privacy and keep you in control of your data. It builds on the foundation of existing Apple privacy and security features with new technologies like Optic ID, a secure authentication system that uses the uniqueness of your iris.</p>
-          <button style={{marginTop: '7rem'}} className={styles.someButton}>
+          <h1>
+            When it comes to privacy,
+            <br />
+            we don&apos;t blink.
+          </h1>
+          <p>
+            <span>Privacy and security built in.</span> Like every Apple product
+            and service, Vision Pro was designed to help protect your privacy
+            and keep you in control of your data. It builds on the foundation of
+            existing Apple privacy and security features with new technologies
+            like Optic ID, a secure authentication system that uses the
+            uniqueness of your iris.
+          </p>
+          <button style={{ marginTop: "7rem" }} className={styles.someButton}>
             <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-plus"
-                viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-plus"
+              viewBox="0 0 16 16"
             >
               <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
             </svg>
