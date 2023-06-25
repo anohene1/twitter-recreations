@@ -225,8 +225,8 @@ function Page() {
     gsap.to(spatialAudioVideoRef.current, {
       scrollTrigger: {
         trigger: spatialAudioVideoRef.current,
-        start: "top 50%",
-        end: "top 40%",
+        start: "bottom+=450% 80%",
+        end: "bottom+=450% 70%",
         onEnter: () => {
           // @ts-ignore
           spatialAudioVideoRef.current?.play();
